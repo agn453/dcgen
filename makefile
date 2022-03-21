@@ -92,8 +92,8 @@ $(AOBJS): %.obj: %.asm
 #	zxas -j -n $<
 
 cgen.com: $(OBJS)
-	zxcc link -"<" +lkcgen
-	sort cgen1.sym | uniq > cgen1.sym.sorted
+	zxlink <lkcgen
+	sort <cgen1.sym | uniq > cgen1.sym.sorted
 
 clean:
 	rm -f $(OBJS) cgen1.com *.\$$\$$\$$ cgen1.map cgen1.sym cgen1.sym.sorted
