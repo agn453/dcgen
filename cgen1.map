@@ -1,0 +1,244 @@
+Machine type is Z80
+
+zcrtcpm.obj     text            0      13D	data         805E        1
+1.obj           bss          ADAB      280
+2.obj           data         805F     181E
+3.obj           data         987D      B1F
+13D.obj         text          13D       75
+1B2.obj         text          1B2      154
+306.obj         text          306      100
+406.obj         text          406      2CB
+6D1.obj         text          6D1       9E	data         A39C       28
+76F.obj         text          76F       99
+808.obj         text          808      311	data         A3C4       16
+3_1.obj         data         A3DA      16C
+B19new.obj      text          B19      B40	data         A546      27A
+4.obj           data         A7C0       90
+1659.obj        text         1659       27
+1680.obj        text         1680      160	data         A850       92
+17E0.obj        text         17E0      1E1	data         A8E2       52
+19C1.obj        text         19C1      2AC	data         A934       16
+1C6D.obj        text         1C6D       21
+1C8E.obj        text         1C8E      2BD
+1F4B.obj        text         1F4B      8F3	data         A94A        3
+283E.obj        text         283E      2EC
+2B2A.obj        text         2B2A       4F
+2B79.obj        text         2B79       E5	data         A94D       1B
+2C5E.obj        text         2C5E       82
+2CE0.obj        text         2CE0       29	data         A968        4
+2D09.obj        text         2D09      85B	data         A96C       2C
+3564.obj        text         3564      289
+37ED.obj        text         37ED       6E
+385B.obj        text         385B      21E	data         A998       1C
+3A79.obj        text         3A79       EC
+3B65.obj        text         3B65       61
+3BC6.obj        text         3BC6      119
+3CDF.obj        text         3CDF      1CB	data         A9B4       1C
+3EAA.obj        text         3EAA      2B4	data         A9D0       3E
+415E.obj        text         415E       34
+4192.obj        text         4192      25D	data         AA0E       11
+43EF.obj        text         43EF      308	data         AA1F       10
+46F7.obj        text         46F7       65
+475C.obj        text         475C       56
+47B2.obj        text         47B2      3D7	data         AA2F       3C
+4B89.obj        text         4B89       5C
+4BE5.obj        text         4BE5       88
+4C6D.obj        text         4C6D       1E
+4C8B.obj        text         4C8B      343
+4FCE.obj        text         4FCE       BC
+508A.obj        text         508A      D6C	data         AA6B       5D
+5DF6.obj        text         5DF6      15C	data         AAC8        2
+5.obj           data         AACA       D2
+5F52.obj        text         5F52       BC
+600E.obj        text         600E       50
+605E.obj        text         605E       4A
+60A8.obj        text         60A8      102
+61AA.obj        text         61AA      20E
+63B8.obj        text         63B8      1D1
+6589.obj        text         6589      385
+main.obj        text         690E      194	data         AB9C       4E
+libc1.obj       text         6AA2     10E9	data         ABEA       45
+		bss          B02B      20E
+libc2.obj       text         7B8B      201
+libc3.obj       text         7D8C      13F
+libc4.obj       text         7ECB       1F
+libc5.obj       text         7EEA      174	bss          B239        2
+setup.obj       data         AC2F       FA
+nularg.obj      data         AD29        1
+ctype_.obj      data         AD2A       81
+
+TOTAL		Name         Link     Load   Length
+		(abs)           0        0        0
+		text            0        0     805E
+		data         805E     805E     2D4D
+		bss          ADAB     ADAB      490
+
+                                  Symbol Table
+
+__Ltext     text  0000  start       text  0100  _sub_13D    text  013D
+_sub_1B2    text  01B2  _gethashptr text  021F  _sub_265    text  0265
+_sub_306    text  0306  _sub_406    text  0406  _sub_627    text  0627
+_sub_6C8    text  06C8  _sub_6D1    text  06D1  _sub_76F    text  076F
+_sub_793    text  0793  _sub_808    text  0808  _sub_B19    text  0B19
+_sub_B96    text  0B96  _sub_BCC    text  0BCC  _sub_BEE    text  0BEE
+_sub_C36    text  0C36  _sub_C57    text  0C57  _sub_CAB    text  0CAB
+_sub_CDF    text  0CDF  _selpsect   text  0D37  _sub_D66    text  0D66
+_sub_E43    text  0E43  _sub_1420   text  1420  _sub_143F   text  143F
+_sub_1489   text  1489  _sub_14D3   text  14D3  _sub_14F3   text  14F3
+_sub_153A   text  153A  _sub_155D   text  155D  _sub_15D3   text  15D3
+_sub_15E7   text  15E7  _sub_15FB   text  15FB  _sub_1659   text  1659
+_sub_1680   text  1680  _sub_174C   text  174C  _sub_1754   text  1754
+_sub_17E0   text  17E0  _sub_19C1   text  19C1  _sub_1B0C   text  1B0C
+_sub_1C6D   text  1C6D  _sub_1C8E   text  1C8E  _sub_1CC4   text  1CC4
+_sub_1CEF   text  1CEF  _sub_1EDF   text  1EDF  _sub_1F4B   text  1F4B
+_sub_283E   text  283E  _sub_2B2A   text  2B2A  _sub_2B79   text  2B79
+_sub_2BD0   text  2BD0  _sub_2C5E   text  2C5E  _sub_2CE0   text  2CE0
+_sub_2D09   text  2D09  _sub_3564   text  3564  _sub_35E6   text  35E6
+_sub_36E0   text  36E0  _sub_3712   text  3712  _sub_374C   text  374C
+_sub_377A   text  377A  _sub_37ED   text  37ED  _sub_385B   text  385B
+_sub_387A   text  387A  _sub_38CA   text  38CA  _sub_393C   text  393C
+_sub_3952   text  3952  _sub_3968   text  3968  _nodesize   text  3993
+_sub_39CA   text  39CA  _sub_3A79   text  3A79  _sub_3B65   text  3B65
+_sub_3BC6   text  3BC6  _sub_3CDF   text  3CDF  _sub_3DC9   text  3DC9
+_sub_3EAA   text  3EAA  _sub_415E   text  415E  _sub_4192   text  4192
+_sub_43EF   text  43EF  _sub_46F7   text  46F7  _sub_475C   text  475C
+_sub_47B2   text  47B2  _sub_4B89   text  4B89  _sub_4BE5   text  4BE5
+_sub_4C12   text  4C12  _sub_4C6D   text  4C6D  _sub_4C8B   text  4C8B
+_sub_4DA3   text  4DA3  _sub_4E8D   text  4E8D  _sub_4FA8   text  4FA8
+_sub_4FCE   text  4FCE  _sub_508A   text  508A  _sub_53EE   text  53EE
+_sub_54B6   text  54B6  _sub_5CF5   text  5CF5  _sub_5DF6   text  5DF6
+_sub_5F52   text  5F52  _sub_600E   text  600E  _sub_605E   text  605E
+_sub_60A8   text  60A8  _sub_61AA   text  61AA  _sub_6246   text  6246
+_sub_628F   text  628F  _sub_62BE   text  62BE  _sub_63B8   text  63B8
+_sub_6589   text  6589  _sub_665B   text  665B  _sub_66BC   text  66BC
+_main       text  690E  _faterror   text  6AA2  _warning    text  6AD0
+_uerror     text  6B1D  _sub_6B55   text  6B55  _allocmem   text  6B9B
+_fprintf    text  6BD3  _freopen    text  6BF5  _sub_6D1C   text  6D1C
+_sub_6D61   text  6D61  _cmalloc    text  6ED4  _sub_7028   text  7028
+_printf     text  708D  _getchar    text  70AC  _putchar    text  70B5
+_toupper    text  70CB  _def_fcb    text  70F8  _sprintf    text  7247
+_pputc      text  7288  __pnum      text  729C  __doprnt    text  7325
+_fputc      text  75A2  __flsbuf    text  75FA  _fgetc      text  768F
+__filbuf    text  770B  _sub_77F5   text  77F5  _exit       text  781E
+_fclose     text  7855  _bdoshl     text  78DA  _fflush     text  78F0
+_bdos       text  7A45  startup     text  7A5F  __getargs   text  7A62
+asallsh     text  7AB0  aslllsh     text  7AB0  allsh       text  7AC2
+lllsh       text  7AC2  asalrsh     text  7AD3  asar        text  7AE5
+asaladd     text  7AF4  aslladd     text  7AF4  asaland     text  7AFD
+aslland     text  7AFD  asal        text  7B06  asll        text  7B06
+asllrsh     text  7B15  asalmul     text  7B27  asllmul     text  7B27
+asalor      text  7B30  asllor      text  7B30  asalsub     text  7B39
+asllsub     text  7B39  asalxor     text  7B42  asllxor     text  7B42
+_atoi       text  7B52  _atol       text  7B8B  _blkclr     text  7C37
+iregset     text  7C47  iregstore   text  7C61  aladd       text  7C6D
+lladd       text  7C6D  aland       text  7C7B  lland       text  7C7B
+llrsh       text  7C90  alor        text  7CA4  llor        text  7CA4
+arelop      text  7CB9  lrelop      text  7CB9  brelop      text  7CDC
+wrelop      text  7CF0  alsub       text  7CFF  llsub       text  7CFF
+alxor       text  7D0F  llxor       text  7D0F  amod        text  7D24
+lmod        text  7D29  ldiv        text  7D2E  adiv        text  7D33
+asaldiv     text  7DC3  aldiv       text  7DD8  lldiv       text  7DEB
+aslldiv     text  7DF7  almod       text  7DFF  asalmod     text  7E11
+llmod       text  7E19  asllmod     text  7E24  aslr        text  7EAC
+_bmove      text  7EBB  _movmem     text  7EBB  amul        text  7ECB
+lmul        text  7ECB  alrsh       text  7EEA  almul       text  7EFE
+llmul       text  7EFE  _brk        text  7F3D  _sbrk       text  7F45
+_checksp    text  7F71  shar        text  7F80  shal        text  7F90
+shll        text  7F90  shlr        text  7F9D  _strcat     text  7FAD
+_strcmp     text  7FC8  _strcpy     text  7FE2  _strlen     text  7FF4
+_strncpy    text  8002  csv         text  8018  cret        text  8024
+indir       text  802B  ncsv        text  802C  rcsv        text  8040
+__Htext     text  805E  __Ldata     data  805E  _array_805F data  805F
+_array_80EF data  80EF  _p_8ADB     data  8ADB  _p_8B33     data  8B33
+_p_8B34     data  8B34  _p_8B88     data  8B88  _p_8B8C     data  8B8C
+_p_8BB7     data  8BB7  _p_8BE2     data  8BE2  _p_8C23     data  8C23
+_p_8C25     data  8C25  _p_8C67     data  8C67  _p_8CA1     data  8CA1
+_p_8CD7     data  8CD7  _p_8D09     data  8D09  _p_8D0B     data  8D0B
+_p_8D3C     data  8D3C  _p_8D3E     data  8D3E  _p_8D70     data  8D70
+_p_8D9E     data  8D9E  _p_8DA1     data  8DA1  _p_8DD0     data  8DD0
+_p_8DD2     data  8DD2  _p_8E03     data  8E03  _p_8E34     data  8E34
+_p_8E63     data  8E63  _p_8E90     data  8E90  _p_8EBB     data  8EBB
+_p_8EE5     data  8EE5  _p_8F0D     data  8F0D  _p_8F35     data  8F35
+_p_8F5D     data  8F5D  _p_8F82     data  8F82  _p_8FA5     data  8FA5
+_p_8FC4     data  8FC4  _p_8FC8     data  8FC8  _p_8FEA     data  8FEA
+_p_900C     data  900C  _p_902D     data  902D  _p_904D     data  904D
+_p_906D     data  906D  _p_9087     data  9087  _p_908C     data  908C
+_p_90A7     data  90A7  _p_90AB     data  90AB  _p_90CA     data  90CA
+_p_90E9     data  90E9  _p_9107     data  9107  _p_9125     data  9125
+_p_9143     data  9143  _p_9160     data  9160  _p_917D     data  917D
+_p_9199     data  9199  _p_91B5     data  91B5  _p_91CE     data  91CE
+_p_91D1     data  91D1  _p_91E9     data  91E9  _p_91ED     data  91ED
+_p_9207     data  9207  _p_9221     data  9221  _p_923B     data  923B
+_p_9255     data  9255  _p_926F     data  926F  _p_9289     data  9289
+_p_92A3     data  92A3  _p_92BD     data  92BD  _p_92D7     data  92D7
+_p_92F1     data  92F1  _p_930A     data  930A  _p_9323     data  9323
+_p_933B     data  933B  _p_9353     data  9353  _p_936B     data  936B
+_p_9380     data  9380  _p_9383     data  9383  _p_9390     data  9390
+_p_939B     data  939B  _p_93B3     data  93B3  _p_93CB     data  93CB
+_p_93E2     data  93E2  _p_93F9     data  93F9  _p_940F     data  940F
+_p_9425     data  9425  _p_943B     data  943B  _p_9451     data  9451
+_p_9466     data  9466  _p_947B     data  947B  _p_9490     data  9490
+_p_94A4     data  94A4  _p_94B4     data  94B4  _p_94B6     data  94B6
+_p_94C8     data  94C8  _p_94DA     data  94DA  _p_94EB     data  94EB
+_p_94FC     data  94FC  _p_950D     data  950D  _p_951E     data  951E
+_p_952F     data  952F  _p_953F     data  953F  _p_954F     data  954F
+_p_955F     data  955F  _p_956B     data  956B  _p_956E     data  956E
+_p_957D     data  957D  _p_958C     data  958C  _p_9597     data  9597
+_p_959B     data  959B  _p_95AA     data  95AA  _p_95B9     data  95B9
+_p_95C8     data  95C8  _p_95D6     data  95D6  _p_95E4     data  95E4
+_p_95F2     data  95F2  _p_9600     data  9600  _p_9609     data  9609
+_p_960D     data  960D  _p_961A     data  961A  _p_9627     data  9627
+_p_9634     data  9634  _p_9641     data  9641  _p_964E     data  964E
+_p_965B     data  965B  _p_9668     data  9668  _p_9675     data  9675
+_p_9682     data  9682  _p_968E     data  968E  _p_9699     data  9699
+_p_96A4     data  96A4  _p_96AF     data  96AF  _p_96B5     data  96B5
+_p_96BA     data  96BA  _p_96C5     data  96C5  _p_96D0     data  96D0
+_p_96DA     data  96DA  _p_96E4     data  96E4  _p_96EE     data  96EE
+_p_96F8     data  96F8  _p_9702     data  9702  _p_970C     data  970C
+_p_9712     data  9712  _p_9716     data  9716  _p_9720     data  9720
+_p_9729     data  9729  _p_9732     data  9732  _p_973B     data  973B
+_p_9744     data  9744  _p_974D     data  974D  _p_9756     data  9756
+_p_975E     data  975E  _p_9766     data  9766  _p_976B     data  976B
+_p_976E     data  976E  _p_9776     data  9776  _p_977E     data  977E
+_p_9786     data  9786  _p_978E     data  978E  _p_9796     data  9796
+_p_979E     data  979E  _p_97A6     data  97A6  _p_97AD     data  97AD
+_p_97B4     data  97B4  _p_97BB     data  97BB  _p_97C2     data  97C2
+_p_97C9     data  97C9  _p_97D0     data  97D0  _p_97D7     data  97D7
+_p_97DE     data  97DE  _p_97E5     data  97E5  _p_97EB     data  97EB
+_p_97F1     data  97F1  _p_97F7     data  97F7  _p_97FD     data  97FD
+_p_9802     data  9802  _p_9807     data  9807  _p_980C     data  980C
+_p_9811     data  9811  _p_9816     data  9816  _p_981B     data  981B
+_p_9820     data  9820  _p_9824     data  9824  _p_9828     data  9828
+_p_982C     data  982C  _p_9830     data  9830  _p_9834     data  9834
+_p_9838     data  9838  _p_983C     data  983C  _p_9840     data  9840
+_p_9844     data  9844  _p_9848     data  9848  _p_984C     data  984C
+_p_9850     data  9850  _p_9851     data  9851  _p_9854     data  9854
+_p_9858     data  9858  _p_985C     data  985C  _p_9860     data  9860
+_p_9864     data  9864  _p_9867     data  9867  _p_986A     data  986A
+_p_986B     data  986B  _p_986D     data  986D  _p_9870     data  9870
+_p_9873     data  9873  _p_9876     data  9876  _p_9879     data  9879
+_p_987B     data  987B  _array_987D data  987D  _array_990D data  990D
+_array_9BD4 data  9BD4  _array_A162 data  A162  d_6c8_A3B6  data  A3B6
+_tnames     data  A3DA  _byte_A46A  data  A46A  _array_A542 data  A542
+_dopetab    data  A7C0  _off_AACA   data  AACA  _array_AAE8 data  AAE8
+_array_AB24 data  AB24  _array_AB54 data  AB54  __iob       data  AC2F
+__fcb       data  AC5C  nularg      data  AD29  __ctype_    data  AD2A
+__Hdata     data  ADAB  __Lbss      bss   ADAB  _buffer     bss   ADAB
+_lineno     bss   ADE7  _progname   bss   ADE9  _byte_AE0C  bss   AE11
+_cursect    bss   AE12  _word_AE0F  bss   AE14  _word_AE11  bss   AE16
+_array_AE13 bss   AE18  _word_AE53  bss   AE58  _nstdpth    bss   AE5A
+_array_AE57 bss   AE5C  _array_AE97 bss   AE9C  _word_AED7  bss   AEDC
+_word_AED9  bss   AEDE  _array_AEDB bss   AEE0  _word_AF1B  bss   AF20
+_word_AF1D  bss   AF22  _hashtab    bss   AF24  _word_AFE9  bss   AFEE
+_lvlidx     bss   AFF0  _word_AFED  bss   AFF2  _word_AFEF  bss   AFF4
+_word_AFF1  bss   AFF6  _byte_AFF3  bss   AFF8  _word_AFF4  bss   AFF9
+_word_AFF6  bss   AFFB  _word_AFF8  bss   AFFD  _byte_AFFA  bss   AFFF
+_word_AFFB  bss   B000  _array_AFFD bss   B002  _word_B011  bss   B016
+_byte_B013  bss   B018  _byte_B014  bss   B019  _word_B015  bss   B01A
+_word_B017  bss   B01C  _wflag      bss   B01E  _pflag      bss   B01F
+_hflag      bss   B020  _errcnt     bss   B021  _bflag      bss   B023
+_beg_sbrk   bss   B024  _eflag      bss   B026  _rflag      bss   B027
+_word_B023  bss   B028  _left       bss   B033  _ffile      bss   B034
+_base       bss   B036  __sibuf     bss   B037  __argc_     bss   B237
+__Hbss      bss   B23B  
+
